@@ -1,0 +1,13 @@
+ 1. ENet Host
+	- This is the server or client. It holds:
+	- Connections (peers)
+	- A listening port
+	- A max number of connections
+
+2. ENet Peer
+	- This is a connected remote machine.
+	- Server: peers represent connected clients
+	- Client: peer represents the server
+
+3. ENet Packet
+	- A chunk of data to be sent across the network.

@@ -1,0 +1,839 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+      Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:26:56.
+      
+      Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+      PrepareForBuild:
+        Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe Debug\\.
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe Debug\\CompilerIdC.tlog\\.
+      InitializeBuildStatus:
+        Prob├şh├í vytv├í┼Öen├ş souboru Debug\\CompilerIdC.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+        Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro Debug\\CompilerIdC.tlog\\unsuccessfulbuild.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Prob├şh├í odstra┼łov├ín├ş souboru Debug\\CompilerIdC.tlog\\unsuccessfulbuild.
+        Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate.
+      Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno.
+      
+      Vytv├í┼Öen├ş sestaven├ş bylo ├║sp─Ť┼ín─Ť dokon─Źeno.
+          0 upozorn─Ťn├ş
+          Po─Źet chyb: 0
+      
+      Uplynul├Ż ─Źas 00:00:01.14
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+      Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:26:57.
+      
+      Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+      PrepareForBuild:
+        Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe Debug\\.
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe Debug\\CompilerIdCXX.tlog\\.
+      InitializeBuildStatus:
+        Prob├şh├í vytv├í┼Öen├ş souboru Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+        Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Prob├şh├í odstra┼łov├ín├ş souboru Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild.
+        Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate.
+      Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno.
+      
+      Vytv├í┼Öen├ş sestaven├ş bylo ├║sp─Ť┼ín─Ť dokon─Źeno.
+          0 upozorn─Ťn├ş
+          Po─Źet chyb: 0
+      
+      Uplynul├Ż ─Źas 00:00:01.31
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-tsxgyh"
+      binary: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-tsxgyh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-tsxgyh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_faf9d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+        Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:27:01.
+        
+        Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tsxgyh\\cmTC_faf9d.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+        PrepareForBuild:
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_faf9d.dir\\Debug\\.
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tsxgyh\\Debug\\.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_faf9d.dir\\Debug\\cmTC_faf9d.tlog\\.
+        InitializeBuildStatus:
+          Prob├şh├í vytv├í┼Öen├ş souboru cmTC_faf9d.dir\\Debug\\cmTC_faf9d.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_faf9d.dir\\Debug\\cmTC_faf9d.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_faf9d.dir\\Debug\\\\" /Fd"cmTC_faf9d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_faf9d.dir\\Debug\\\\" /Fd"cmTC_faf9d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tsxgyh\\Debug\\cmTC_faf9d.exe" /INCREMENTAL /ILK:"cmTC_faf9d.dir\\Debug\\cmTC_faf9d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-tsxgyh/Debug/cmTC_faf9d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-tsxgyh/Debug/cmTC_faf9d.lib" /MACHINE:X64  /machine:x64 cmTC_faf9d.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_faf9d.vcxproj -> D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tsxgyh\\Debug\\cmTC_faf9d.exe
+        FinalizeBuildStatus:
+          Prob├şh├í odstra┼łov├ín├ş souboru cmTC_faf9d.dir\\Debug\\cmTC_faf9d.tlog\\unsuccessfulbuild.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_faf9d.dir\\Debug\\cmTC_faf9d.tlog\\cmTC_faf9d.lastbuildstate.
+        Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tsxgyh\\cmTC_faf9d.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno.
+        
+        Vytv├í┼Öen├ş sestaven├ş bylo ├║sp─Ť┼ín─Ť dokon─Źeno.
+            0 upozorn─Ťn├ş
+            Po─Źet chyb: 0
+        
+        Uplynul├Ż ─Źas 00:00:01.79
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-j948n0"
+      binary: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-j948n0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-j948n0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_85dc0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+        Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:27:05.
+        
+        Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j948n0\\cmTC_85dc0.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+        PrepareForBuild:
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_85dc0.dir\\Debug\\.
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j948n0\\Debug\\.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_85dc0.dir\\Debug\\cmTC_85dc0.tlog\\.
+        InitializeBuildStatus:
+          Prob├şh├í vytv├í┼Öen├ş souboru cmTC_85dc0.dir\\Debug\\cmTC_85dc0.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_85dc0.dir\\Debug\\cmTC_85dc0.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_85dc0.dir\\Debug\\\\" /Fd"cmTC_85dc0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_85dc0.dir\\Debug\\\\" /Fd"cmTC_85dc0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j948n0\\Debug\\cmTC_85dc0.exe" /INCREMENTAL /ILK:"cmTC_85dc0.dir\\Debug\\cmTC_85dc0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-j948n0/Debug/cmTC_85dc0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-j948n0/Debug/cmTC_85dc0.lib" /MACHINE:X64  /machine:x64 cmTC_85dc0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_85dc0.vcxproj -> D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j948n0\\Debug\\cmTC_85dc0.exe
+        FinalizeBuildStatus:
+          Prob├şh├í odstra┼łov├ín├ş souboru cmTC_85dc0.dir\\Debug\\cmTC_85dc0.tlog\\unsuccessfulbuild.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_85dc0.dir\\Debug\\cmTC_85dc0.tlog\\cmTC_85dc0.lastbuildstate.
+        Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j948n0\\cmTC_85dc0.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno.
+        
+        Vytv├í┼Öen├ş sestaven├ş bylo ├║sp─Ť┼ín─Ť dokon─Źeno.
+            0 upozorn─Ťn├ş
+            Po─Źet chyb: 0
+        
+        Uplynul├Ż ─Źas 00:00:02.54
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:9 (check_function_exists)"
+    checks:
+      - "Looking for fcntl"
+    directories:
+      source: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-3p1vag"
+      binary: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-3p1vag"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAS_FCNTL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-3p1vag'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2884a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+        Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:27:10.
+        
+        Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p1vag\\cmTC_2884a.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+        PrepareForBuild:
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_2884a.dir\\Debug\\.
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p1vag\\Debug\\.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_2884a.dir\\Debug\\cmTC_2884a.tlog\\.
+        InitializeBuildStatus:
+          Prob├şh├í vytv├í┼Öen├ş souboru cmTC_2884a.dir\\Debug\\cmTC_2884a.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_2884a.dir\\Debug\\cmTC_2884a.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fcntl /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2884a.dir\\Debug\\\\" /Fd"cmTC_2884a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p1vag\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fcntl /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2884a.dir\\Debug\\\\" /Fd"cmTC_2884a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p1vag\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p1vag\\Debug\\cmTC_2884a.exe" /INCREMENTAL /ILK:"cmTC_2884a.dir\\Debug\\cmTC_2884a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-3p1vag/Debug/cmTC_2884a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-3p1vag/Debug/cmTC_2884a.lib" /MACHINE:X64  /machine:x64 cmTC_2884a.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol fcntl referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p1vag\\cmTC_2884a.vcxproj]
+        D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p1vag\\Debug\\cmTC_2884a.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p1vag\\cmTC_2884a.vcxproj]
+        Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p1vag\\cmTC_2884a.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno: CHYBA.
+        
+        Sestaven├ş SE NEZDA┼śILO.
+        
+        "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p1vag\\cmTC_2884a.vcxproj" (v├Żchoz├ş c├şl) (1) ->
+        (c├şl Link) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol fcntl referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p1vag\\cmTC_2884a.vcxproj]
+          D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p1vag\\Debug\\cmTC_2884a.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3p1vag\\cmTC_2884a.vcxproj]
+        
+            0 upozorn─Ťn├ş
+            Po─Źet chyb: 2
+        
+        Uplynul├Ż ─Źas 00:00:01.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:10 (check_function_exists)"
+    checks:
+      - "Looking for poll"
+    directories:
+      source: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-05mnud"
+      binary: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-05mnud"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAS_POLL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-05mnud'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2d3c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+        Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:27:14.
+        
+        Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05mnud\\cmTC_2d3c7.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+        PrepareForBuild:
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_2d3c7.dir\\Debug\\.
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05mnud\\Debug\\.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_2d3c7.dir\\Debug\\cmTC_2d3c7.tlog\\.
+        InitializeBuildStatus:
+          Prob├şh├í vytv├í┼Öen├ş souboru cmTC_2d3c7.dir\\Debug\\cmTC_2d3c7.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_2d3c7.dir\\Debug\\cmTC_2d3c7.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d3c7.dir\\Debug\\\\" /Fd"cmTC_2d3c7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05mnud\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d3c7.dir\\Debug\\\\" /Fd"cmTC_2d3c7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05mnud\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05mnud\\Debug\\cmTC_2d3c7.exe" /INCREMENTAL /ILK:"cmTC_2d3c7.dir\\Debug\\cmTC_2d3c7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-05mnud/Debug/cmTC_2d3c7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-05mnud/Debug/cmTC_2d3c7.lib" /MACHINE:X64  /machine:x64 cmTC_2d3c7.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol poll referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05mnud\\cmTC_2d3c7.vcxproj]
+        D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05mnud\\Debug\\cmTC_2d3c7.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05mnud\\cmTC_2d3c7.vcxproj]
+        Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05mnud\\cmTC_2d3c7.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno: CHYBA.
+        
+        Sestaven├ş SE NEZDA┼śILO.
+        
+        "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05mnud\\cmTC_2d3c7.vcxproj" (v├Żchoz├ş c├şl) (1) ->
+        (c├şl Link) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol poll referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05mnud\\cmTC_2d3c7.vcxproj]
+          D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05mnud\\Debug\\cmTC_2d3c7.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-05mnud\\cmTC_2d3c7.vcxproj]
+        
+            0 upozorn─Ťn├ş
+            Po─Źet chyb: 2
+        
+        Uplynul├Ż ─Źas 00:00:01.20
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:11 (check_function_exists)"
+    checks:
+      - "Looking for getaddrinfo"
+    directories:
+      source: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-aexxap"
+      binary: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-aexxap"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAS_GETADDRINFO"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-aexxap'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dc3a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+        Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:27:17.
+        
+        Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aexxap\\cmTC_dc3a9.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+        PrepareForBuild:
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_dc3a9.dir\\Debug\\.
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aexxap\\Debug\\.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_dc3a9.dir\\Debug\\cmTC_dc3a9.tlog\\.
+        InitializeBuildStatus:
+          Prob├şh├í vytv├í┼Öen├ş souboru cmTC_dc3a9.dir\\Debug\\cmTC_dc3a9.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_dc3a9.dir\\Debug\\cmTC_dc3a9.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getaddrinfo /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dc3a9.dir\\Debug\\\\" /Fd"cmTC_dc3a9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aexxap\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getaddrinfo /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dc3a9.dir\\Debug\\\\" /Fd"cmTC_dc3a9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aexxap\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aexxap\\Debug\\cmTC_dc3a9.exe" /INCREMENTAL /ILK:"cmTC_dc3a9.dir\\Debug\\cmTC_dc3a9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-aexxap/Debug/cmTC_dc3a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-aexxap/Debug/cmTC_dc3a9.lib" /MACHINE:X64  /machine:x64 cmTC_dc3a9.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol getaddrinfo referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aexxap\\cmTC_dc3a9.vcxproj]
+        D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aexxap\\Debug\\cmTC_dc3a9.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aexxap\\cmTC_dc3a9.vcxproj]
+        Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aexxap\\cmTC_dc3a9.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno: CHYBA.
+        
+        Sestaven├ş SE NEZDA┼śILO.
+        
+        "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aexxap\\cmTC_dc3a9.vcxproj" (v├Żchoz├ş c├şl) (1) ->
+        (c├şl Link) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol getaddrinfo referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aexxap\\cmTC_dc3a9.vcxproj]
+          D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aexxap\\Debug\\cmTC_dc3a9.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aexxap\\cmTC_dc3a9.vcxproj]
+        
+            0 upozorn─Ťn├ş
+            Po─Źet chyb: 2
+        
+        Uplynul├Ż ─Źas 00:00:01.20
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:12 (check_function_exists)"
+    checks:
+      - "Looking for getnameinfo"
+    directories:
+      source: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-47t3rt"
+      binary: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-47t3rt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAS_GETNAMEINFO"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-47t3rt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f89b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+        Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:27:32.
+        
+        Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47t3rt\\cmTC_f89b5.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+        PrepareForBuild:
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_f89b5.dir\\Debug\\.
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47t3rt\\Debug\\.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_f89b5.dir\\Debug\\cmTC_f89b5.tlog\\.
+        InitializeBuildStatus:
+          Prob├şh├í vytv├í┼Öen├ş souboru cmTC_f89b5.dir\\Debug\\cmTC_f89b5.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_f89b5.dir\\Debug\\cmTC_f89b5.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getnameinfo /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f89b5.dir\\Debug\\\\" /Fd"cmTC_f89b5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47t3rt\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getnameinfo /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f89b5.dir\\Debug\\\\" /Fd"cmTC_f89b5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47t3rt\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47t3rt\\Debug\\cmTC_f89b5.exe" /INCREMENTAL /ILK:"cmTC_f89b5.dir\\Debug\\cmTC_f89b5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-47t3rt/Debug/cmTC_f89b5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-47t3rt/Debug/cmTC_f89b5.lib" /MACHINE:X64  /machine:x64 cmTC_f89b5.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol getnameinfo referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47t3rt\\cmTC_f89b5.vcxproj]
+        D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47t3rt\\Debug\\cmTC_f89b5.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47t3rt\\cmTC_f89b5.vcxproj]
+        Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47t3rt\\cmTC_f89b5.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno: CHYBA.
+        
+        Sestaven├ş SE NEZDA┼śILO.
+        
+        "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47t3rt\\cmTC_f89b5.vcxproj" (v├Żchoz├ş c├şl) (1) ->
+        (c├şl Link) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol getnameinfo referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47t3rt\\cmTC_f89b5.vcxproj]
+          D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47t3rt\\Debug\\cmTC_f89b5.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47t3rt\\cmTC_f89b5.vcxproj]
+        
+            0 upozorn─Ťn├ş
+            Po─Źet chyb: 2
+        
+        Uplynul├Ż ─Źas 00:00:06.84
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:13 (check_function_exists)"
+    checks:
+      - "Looking for gethostbyname_r"
+    directories:
+      source: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-a5s620"
+      binary: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-a5s620"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAS_GETHOSTBYNAME_R"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-a5s620'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7c8da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+        Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:27:53.
+        
+        Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5s620\\cmTC_7c8da.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+        PrepareForBuild:
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_7c8da.dir\\Debug\\.
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5s620\\Debug\\.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_7c8da.dir\\Debug\\cmTC_7c8da.tlog\\.
+        InitializeBuildStatus:
+          Prob├şh├í vytv├í┼Öen├ş souboru cmTC_7c8da.dir\\Debug\\cmTC_7c8da.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_7c8da.dir\\Debug\\cmTC_7c8da.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7c8da.dir\\Debug\\\\" /Fd"cmTC_7c8da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5s620\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7c8da.dir\\Debug\\\\" /Fd"cmTC_7c8da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5s620\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5s620\\Debug\\cmTC_7c8da.exe" /INCREMENTAL /ILK:"cmTC_7c8da.dir\\Debug\\cmTC_7c8da.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-a5s620/Debug/cmTC_7c8da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-a5s620/Debug/cmTC_7c8da.lib" /MACHINE:X64  /machine:x64 cmTC_7c8da.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyname_r referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5s620\\cmTC_7c8da.vcxproj]
+        D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5s620\\Debug\\cmTC_7c8da.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5s620\\cmTC_7c8da.vcxproj]
+        Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5s620\\cmTC_7c8da.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno: CHYBA.
+        
+        Sestaven├ş SE NEZDA┼śILO.
+        
+        "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5s620\\cmTC_7c8da.vcxproj" (v├Żchoz├ş c├şl) (1) ->
+        (c├şl Link) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyname_r referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5s620\\cmTC_7c8da.vcxproj]
+          D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5s620\\Debug\\cmTC_7c8da.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5s620\\cmTC_7c8da.vcxproj]
+        
+            0 upozorn─Ťn├ş
+            Po─Źet chyb: 2
+        
+        Uplynul├Ż ─Źas 00:00:05.95
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:14 (check_function_exists)"
+    checks:
+      - "Looking for gethostbyaddr_r"
+    directories:
+      source: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-gfy6dc"
+      binary: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-gfy6dc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAS_GETHOSTBYADDR_R"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-gfy6dc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0270c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+        Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:28:12.
+        
+        Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gfy6dc\\cmTC_0270c.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+        PrepareForBuild:
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_0270c.dir\\Debug\\.
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gfy6dc\\Debug\\.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_0270c.dir\\Debug\\cmTC_0270c.tlog\\.
+        InitializeBuildStatus:
+          Prob├şh├í vytv├í┼Öen├ş souboru cmTC_0270c.dir\\Debug\\cmTC_0270c.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_0270c.dir\\Debug\\cmTC_0270c.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyaddr_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0270c.dir\\Debug\\\\" /Fd"cmTC_0270c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gfy6dc\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyaddr_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0270c.dir\\Debug\\\\" /Fd"cmTC_0270c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gfy6dc\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gfy6dc\\Debug\\cmTC_0270c.exe" /INCREMENTAL /ILK:"cmTC_0270c.dir\\Debug\\cmTC_0270c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-gfy6dc/Debug/cmTC_0270c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-gfy6dc/Debug/cmTC_0270c.lib" /MACHINE:X64  /machine:x64 cmTC_0270c.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyaddr_r referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gfy6dc\\cmTC_0270c.vcxproj]
+        D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gfy6dc\\Debug\\cmTC_0270c.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gfy6dc\\cmTC_0270c.vcxproj]
+        Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gfy6dc\\cmTC_0270c.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno: CHYBA.
+        
+        Sestaven├ş SE NEZDA┼śILO.
+        
+        "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gfy6dc\\cmTC_0270c.vcxproj" (v├Żchoz├ş c├şl) (1) ->
+        (c├şl Link) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyaddr_r referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gfy6dc\\cmTC_0270c.vcxproj]
+          D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gfy6dc\\Debug\\cmTC_0270c.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gfy6dc\\cmTC_0270c.vcxproj]
+        
+            0 upozorn─Ťn├ş
+            Po─Źet chyb: 2
+        
+        Uplynul├Ż ─Źas 00:00:06.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:15 (check_function_exists)"
+    checks:
+      - "Looking for inet_pton"
+    directories:
+      source: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-5v0g2u"
+      binary: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-5v0g2u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAS_INET_PTON"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-5v0g2u'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b02f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+        Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:28:33.
+        
+        Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5v0g2u\\cmTC_b02f5.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+        PrepareForBuild:
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_b02f5.dir\\Debug\\.
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5v0g2u\\Debug\\.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_b02f5.dir\\Debug\\cmTC_b02f5.tlog\\.
+        InitializeBuildStatus:
+          Prob├şh├í vytv├í┼Öen├ş souboru cmTC_b02f5.dir\\Debug\\cmTC_b02f5.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_b02f5.dir\\Debug\\cmTC_b02f5.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b02f5.dir\\Debug\\\\" /Fd"cmTC_b02f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5v0g2u\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b02f5.dir\\Debug\\\\" /Fd"cmTC_b02f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5v0g2u\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5v0g2u\\Debug\\cmTC_b02f5.exe" /INCREMENTAL /ILK:"cmTC_b02f5.dir\\Debug\\cmTC_b02f5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-5v0g2u/Debug/cmTC_b02f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-5v0g2u/Debug/cmTC_b02f5.lib" /MACHINE:X64  /machine:x64 cmTC_b02f5.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_pton referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5v0g2u\\cmTC_b02f5.vcxproj]
+        D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5v0g2u\\Debug\\cmTC_b02f5.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5v0g2u\\cmTC_b02f5.vcxproj]
+        Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5v0g2u\\cmTC_b02f5.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno: CHYBA.
+        
+        Sestaven├ş SE NEZDA┼śILO.
+        
+        "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5v0g2u\\cmTC_b02f5.vcxproj" (v├Żchoz├ş c├şl) (1) ->
+        (c├şl Link) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_pton referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5v0g2u\\cmTC_b02f5.vcxproj]
+          D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5v0g2u\\Debug\\cmTC_b02f5.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5v0g2u\\cmTC_b02f5.vcxproj]
+        
+            0 upozorn─Ťn├ş
+            Po─Źet chyb: 2
+        
+        Uplynul├Ż ─Źas 00:00:07.14
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:16 (check_function_exists)"
+    checks:
+      - "Looking for inet_ntop"
+    directories:
+      source: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-66pxy4"
+      binary: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-66pxy4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAS_INET_NTOP"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-66pxy4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_15f29.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+        Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:28:55.
+        
+        Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66pxy4\\cmTC_15f29.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+        PrepareForBuild:
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_15f29.dir\\Debug\\.
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66pxy4\\Debug\\.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_15f29.dir\\Debug\\cmTC_15f29.tlog\\.
+        InitializeBuildStatus:
+          Prob├şh├í vytv├í┼Öen├ş souboru cmTC_15f29.dir\\Debug\\cmTC_15f29.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_15f29.dir\\Debug\\cmTC_15f29.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_ntop /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15f29.dir\\Debug\\\\" /Fd"cmTC_15f29.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66pxy4\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_ntop /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15f29.dir\\Debug\\\\" /Fd"cmTC_15f29.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66pxy4\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66pxy4\\Debug\\cmTC_15f29.exe" /INCREMENTAL /ILK:"cmTC_15f29.dir\\Debug\\cmTC_15f29.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-66pxy4/Debug/cmTC_15f29.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/programov├ín├ş/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-66pxy4/Debug/cmTC_15f29.lib" /MACHINE:X64  /machine:x64 cmTC_15f29.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_ntop referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66pxy4\\cmTC_15f29.vcxproj]
+        D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66pxy4\\Debug\\cmTC_15f29.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66pxy4\\cmTC_15f29.vcxproj]
+        Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66pxy4\\cmTC_15f29.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno: CHYBA.
+        
+        Sestaven├ş SE NEZDA┼śILO.
+        
+        "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66pxy4\\cmTC_15f29.vcxproj" (v├Żchoz├ş c├şl) (1) ->
+        (c├şl Link) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_ntop referenced in function main [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66pxy4\\cmTC_15f29.vcxproj]
+          D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66pxy4\\Debug\\cmTC_15f29.exe : fatal error LNK1120: 1 unresolved externals [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66pxy4\\cmTC_15f29.vcxproj]
+        
+            0 upozorn─Ťn├ş
+            Po─Źet chyb: 2
+        
+        Uplynul├Ż ─Źas 00:00:06.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckStructHasMember.cmake:77 (CHECK_SOURCE_COMPILES)"
+      - "CMakeLists.txt:17 (check_struct_has_member)"
+    checks:
+      - "Performing Test HAS_MSGHDR_FLAGS"
+    directories:
+      source: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-5uefp8"
+      binary: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-5uefp8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAS_MSGHDR_FLAGS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-5uefp8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bd563.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+        Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:29:16.
+        
+        Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uefp8\\cmTC_bd563.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+        PrepareForBuild:
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_bd563.dir\\Debug\\.
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uefp8\\Debug\\.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_bd563.dir\\Debug\\cmTC_bd563.tlog\\.
+        InitializeBuildStatus:
+          Prob├şh├í vytv├í┼Öen├ş souboru cmTC_bd563.dir\\Debug\\cmTC_bd563.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_bd563.dir\\Debug\\cmTC_bd563.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSGHDR_FLAGS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd563.dir\\Debug\\\\" /Fd"cmTC_bd563.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uefp8\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSGHDR_FLAGS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd563.dir\\Debug\\\\" /Fd"cmTC_bd563.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uefp8\\src.c"
+          src.c
+        D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uefp8\\src.c(3,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uefp8\\cmTC_bd563.vcxproj]
+        Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uefp8\\cmTC_bd563.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno: CHYBA.
+        
+        Sestaven├ş SE NEZDA┼śILO.
+        
+        "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uefp8\\cmTC_bd563.vcxproj" (v├Żchoz├ş c├şl) (1) ->
+        (c├şl ClCompile) -> 
+          D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uefp8\\src.c(3,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uefp8\\cmTC_bd563.vcxproj]
+        
+            0 upozorn─Ťn├ş
+            Po─Źet chyb: 1
+        
+        Uplynul├Ż ─Źas 00:00:02.95
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "CMakeLists.txt:19 (check_type_size)"
+    checks:
+      - "Check size of socklen_t"
+    directories:
+      source: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-w0btje"
+      binary: "D:/programov\u00e1n\u00ed/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-w0btje"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_HAS_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/programování/visual studio/c++/cmake/opengl/my terraria/dependencies/enet-1.3.17/build/CMakeFiles/CMakeScratch/TryCompile-w0btje'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ea8fc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.13.19+0d9f5a35a pro .NET Framework
+        Vytv├í┼Öen├ş sestaven├ş bylo zah├íjeno 04.04.2025 17:29:33.
+        
+        Projekt D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0btje\\cmTC_ea8fc.vcxproj v uzlu 1 (v├Żchoz├ş c├şle).
+        PrepareForBuild:
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_ea8fc.dir\\Debug\\.
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0btje\\Debug\\.
+          Prob├şh├í vytv├í┼Öen├ş adres├í┼Öe cmTC_ea8fc.dir\\Debug\\cmTC_ea8fc.tlog\\.
+        InitializeBuildStatus:
+          Prob├şh├í vytv├í┼Öen├ş souboru cmTC_ea8fc.dir\\Debug\\cmTC_ea8fc.tlog\\unsuccessfulbuild v d┼»sledku zad├ín├ş AlwaysCreate.
+          Prob├şh├í aktualizace ─Źasov├ęho raz├ştka pro cmTC_ea8fc.dir\\Debug\\cmTC_ea8fc.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea8fc.dir\\Debug\\\\" /Fd"cmTC_ea8fc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0btje\\HAS_SOCKLEN_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea8fc.dir\\Debug\\\\" /Fd"cmTC_ea8fc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0btje\\HAS_SOCKLEN_T.c"
+          HAS_SOCKLEN_T.c
+        D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0btje\\HAS_SOCKLEN_T.c(2,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0btje\\cmTC_ea8fc.vcxproj]
+        Sestaven├ş projektu D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0btje\\cmTC_ea8fc.vcxproj (s v├Żchoz├şmi c├şli) bylo dokon─Źeno: CHYBA.
+        
+        Sestaven├ş SE NEZDA┼śILO.
+        
+        "D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0btje\\cmTC_ea8fc.vcxproj" (v├Żchoz├ş c├şl) (1) ->
+        (c├şl ClCompile) -> 
+          D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0btje\\HAS_SOCKLEN_T.c(2,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [D:\\programov├ín├ş\\visual studio\\c++\\cmake\\opengl\\my terraria\\dependencies\\enet-1.3.17\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0btje\\cmTC_ea8fc.vcxproj]
+        
+            0 upozorn─Ťn├ş
+            Po─Źet chyb: 1
+        
+        Uplynul├Ż ─Źas 00:00:02.57
+        
+      exitCode: 1
+...
