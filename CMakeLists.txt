@@ -15,6 +15,9 @@ set(GLFW_ROOT ${CMAKE_SOURCE_DIR}/dependencies/glfw)
 set(STB_IMAGE_ROOT ${CMAKE_SOURCE_DIR}/dependencies/stb_image)
 set(GLM_ROOT ${CMAKE_SOURCE_DIR}/dependencies/glm)
 set(ENET_ROOT ${CMAKE_SOURCE_DIR}/dependencies/enet-1.3.17)
+set(SFML_ROOT ${CMAKE_SOURCE_DIR}/dependencies/SFML)
+
+add_compile_definitions(SFML_STATIC)
 
 # Include and link directories
 include_directories(
@@ -23,12 +26,14 @@ include_directories(
     ${STB_IMAGE_ROOT}
     ${GLM_ROOT}
     ${ENET_ROOT}/include
+    ${SFML_ROOT}/include
 )
 
 link_directories(
     ${GLEW_ROOT}/lib
     ${GLFW_ROOT}/lib
     ${ENET_ROOT}/lib
+    ${SFML_ROOT}/lib
 )
 
 # CLIENT
@@ -41,6 +46,17 @@ target_link_libraries(client
     opengl32
     ws2_32
     winmm
+    sfml-window-s-d
+    sfml-system-s-d
+    sfml-graphics-s-d
+    freetype
+    gdi32
+    flac
+    vorbisenc
+    vorbisfile
+    vorbis
+    ogg
+    ws2_32
 )
 
 # SERVER

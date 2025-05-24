@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-	#pragma region initializing
+	#pragma region initializing enet
 
 	if (enet_initialize() != 0) {
 		cerr << "enet intialize error \n";
@@ -31,8 +31,13 @@ int main() {
 		return EXIT_FAILURE;
 	}
 
+	printf("server \n");
+
 	#pragma endregion
 
+
+
+	#pragma region main loop
 
 	while (true) {
 
@@ -51,15 +56,25 @@ int main() {
 
 
 			case ENET_EVENT_TYPE_RECEIVE:
-				/*printf("A packet of length %u containing %s was received from %x:%u on channel %u.\n",
-						event.packet->dataLength,
-						event.packet->data,
-						event.peer->address.host,
-						event.peer->address.port,
-						event.channelID);*/
-				printf("%x:%u sent '%s' \n", event.peer->address.host, event.peer->address.port, event.packet->data);
-
 				char_data = (char*)event.packet->data;
+
+				if (strcmp(char_data, "<ping>") == 1) {
+					printf("%x:%u sent '%s' \n", event.peer->address.host, event.peer->address.port, event.packet->data);
+
+				}
+
+				if (strcmp(char_data, "<ping>") == 0) {
+					// Respond to keep connection alive
+					const char* pong = "<pong>";
+					ENetPacket* response = enet_packet_create(
+						pong,
+						strlen(pong) + 1,
+						ENET_PACKET_FLAG_RELIABLE
+					);
+					enet_peer_send(event.peer, 0, response);
+					enet_host_flush(server); // force send immediately
+				}
+
 
 				if (strcmp(char_data, "/exit") == 0) {
 					enet_peer_disconnect(event.peer, 0);
@@ -82,7 +97,14 @@ int main() {
 
 
 	}
+
+
+	#pragma endregion
+
+	enet_peer_disconnect(server->peers, 0);
+
 	enet_host_destroy(server);
+
 
 	return EXIT_SUCCESS;
 
